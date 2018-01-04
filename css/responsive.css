@@ -1,34 +1,39 @@
-@media screen and (min-width: 1px) {
+@media screen and (min-width: 1px) and (orientation: portrait) {
+	body {
+		margin: 20px 25px;
+	}
+
 	#udacity-logo {
 		height: 55px;
 	}
-}
 
-h1 {
+	h1 {
 	font-size: 1em;
-}
 
-h5 {
-	font-size: .6em;
-}
+	}
 
-#cover-img-container {
-	height: 21%;
-}
+	h5 {
+		font-size: .6em;
+	}
 
-h3 {
-	font-size: 1.1em;
-}
+	#cover-img-container {
+		height: 21%;
+	}
 
-#featured-work figure {
-	width: 48%;
-}
+	h3 {
+		font-size: 1.1em;
+	}
 
-h2 {
-	font-size: .9em;
-}
+	#featured-work figure {
+		width: 48%;
+	}
 
-figcaption p {
-	font-size: .5em;
-	margin: 0 0 7% 0;
+	h2 {
+		font-size: .9em;
+	}
+
+	figcaption p {
+		font-size: .5em;
+		margin: 0 0 7% 0;
+	}
 }
