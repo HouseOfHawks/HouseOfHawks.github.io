@@ -11,9 +11,7 @@ body {
 }
 
 header {
-	height: 13%;
 	border-bottom: 3px solid #7D97AD;
-	margin: 0 0 25px 0;
 }
 
 #udacity-logo {
@@ -54,7 +52,7 @@ h3 {
 	margin: 1% 0 0;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .project-img {

@@ -3,17 +3,22 @@
 		margin: 20px 25px;
 	}
 
+	header {
+		height: 11%;
+		margin: 0 0 10px 0;
+	}
+
 	#udacity-logo {
 		height: 55px;
 	}
 
 	h1 {
-	font-size: 1em;
+	font-size: 1.25em;
 
 	}
 
 	h5 {
-		font-size: .6em;
+		font-size: .7em;
 	}
 
 	#cover-img-container {
@@ -22,6 +27,7 @@
 
 	h3 {
 		font-size: 1.1em;
+		text-indent: 10px;
 	}
 
 	#featured-work figure {
@@ -29,7 +35,7 @@
 	}
 
 	h2 {
-		font-size: .9em;
+		font-size: 1em;
 	}
 
 	figcaption p {
