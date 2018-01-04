@@ -2,8 +2,90 @@
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+	color: #2D3C49;
 }
 
 body {
-	
+	margin: 40px 45px;
+	overflow: hidden;
+}
+
+header {
+	height: 13%;
+	border-bottom: 3px solid #7D97AD;
+	margin: 0 0 25px 0;
+}
+
+#udacity-logo {
+	height: 85px;
+}
+
+#udacity-logo {
+	float: left;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 2.4em;
+}
+
+h1, h5 {
+	text-align: right;
+}
+
+h5 {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+#cover-img-container {
+	height: 44%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#cover-image {
+	width: 100%;
+}
+
+h3 {
+	margin: 3.75% 0 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	color: #7D97AD;
+}
+
+#featured-work {
+	margin: 1% 0 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+#featured-work figure {
+	width: 31%;
+}
+
+.project-img {
+	width: 100%;
+	border: 1px solid #7D97AD44;
+}
+
+figcaption {
+	width: 100%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	margin: 2% 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+figcaption p {
+	font-size: .75em;
 }
