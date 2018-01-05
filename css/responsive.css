@@ -145,3 +145,9 @@
 		font-size: .8em;
 	}
 }
+
+@media screen and (min-width: 580px) and (orientation: portrait) {
+	#cover-img-container {
+		height: 25%;
+	}
+}
