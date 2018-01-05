@@ -157,3 +157,21 @@
 		height: 30%;
 	}
 }
+
+@media screen and (min-width: 780px) and (orientation: portrait) {
+	#udacity-logo {
+		height: 85px;
+	}
+
+	h1 {
+		font-size: 2.25em;
+	}
+
+	h5 {
+		font-size: 1.3em;
+	}
+
+	#cover-img-container {
+		height: 35%;
+	}
+}
