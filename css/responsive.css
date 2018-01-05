@@ -235,3 +235,71 @@
 		font-size: .5em;
 	}
 }
+
+@media screen and (min-width: 640px) and (orientation: landscape) {
+	header {
+		min-height: 60px;
+	}
+
+	#udacity-logo {
+		height: 55px;
+	}
+
+	h1 {
+		font-size: 1.6em;
+	}
+
+	h5 {
+		font-size: 1em;
+	}
+
+	#cover-img-container {
+		min-height: 245px;
+	}
+
+	h3 {
+		font-size: 1.4em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	figcaption p {
+		font-size: .6em;
+	}
+}
+
+@media screen and (min-width: 780px) and (orientation: landscape) {
+	header {
+		min-height: 70px;
+	}
+
+	#udacity-logo {
+		height: 65px;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h5 {
+		font-size: 1.2em;
+	}
+
+	#cover-img-container {
+		min-height: 300px;
+	}
+
+	h3 {
+		font-size: 1.6em;
+	}
+
+	h2 {
+		font-size: 1.4em;
+	}
+
+	figcaption p {
+		font-size: .8em;
+	}
+}
