@@ -1,10 +1,12 @@
 @media screen and (min-width: 1px) and (orientation: portrait) {
 	body {
 		margin: 20px 25px;
+		min-width: 260px;
 	}
 
 	header {
 		height: 11%;
+		min-height: 60px;
 		margin: 0 0 10px 0;
 	}
 
@@ -23,6 +25,8 @@
 
 	#cover-img-container {
 		height: 21%;
+		min-height: 110px;
+		margin: 2% 0 0 0;
 	}
 
 	h3 {
@@ -59,6 +63,7 @@
 
 	#cover-img-container {
 		height: 18%;
+		min-height: 140px;
 	}
 
 	h3 {
@@ -89,6 +94,7 @@
 
 	#cover-img-container {
 		height: 20%;
+		min-height: 165px;
 	}
 
 	h3 {
@@ -131,6 +137,7 @@
 
 	#cover-img-container {
 		height: 21%;
+		min-height: 190px;
 	}
 
 	h3 {
@@ -149,12 +156,14 @@
 @media screen and (min-width: 580px) and (orientation: portrait) {
 	#cover-img-container {
 		height: 25%;
+		min-height: 220px;
 	}
 }
 
 @media screen and (min-width: 680px) and (orientation: portrait) {
 	#cover-img-container {
 		height: 30%;
+		min-height: 260px;
 	}
 }
 
@@ -173,5 +182,56 @@
 
 	#cover-img-container {
 		height: 35%;
+		min-height: 305px;
+	}
+}
+
+
+
+@media screen and (min-width: 1px) and (orientation: landscape) {
+	body {
+		min-height: 350px;
+		min-width: 420px;
+		margin: 20px 35px;
+	}
+
+	header {
+		height: 11%;
+		min-height: 50px;
+	}
+
+	#udacity-logo {
+		height: 45px;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h5 {
+		font-size: .9em;
+	}
+
+	#cover-img-container {
+		height: 35%;
+		min-height: 190px;
+		margin: 2% 0 0 0;
+	}
+
+	h3 {
+		font-size: 1.3em;
+		text-indent: 15px;
+	}
+
+	#featured-work figure {
+		width: 32%;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+
+	figcaption p {
+		font-size: .5em;
 	}
 }
