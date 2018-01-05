@@ -305,6 +305,11 @@
 }
 
 @media screen and (min-width: 1000px) and (orientation: landscape) {
+	body {
+		max-width: 930px;
+		margin: 20px auto;
+	}
+
 	header {
 		min-height: 80px;
 	}
