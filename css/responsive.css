@@ -73,3 +73,37 @@
 		font-size: .6em;
 	}
 }
+
+@media screen and (min-width: 440px) and (orientation: portrait) {
+	header {
+		height: 10%;
+	}
+
+	h1 {
+		font-size: 1.6em;
+	}
+
+	h5 {
+		font-size: 1em;
+	}
+
+	#cover-img-container {
+		height: 20%;
+	}
+
+	h3 {
+		font-size: 1.35em;
+	}
+
+	#featured-work figure {
+		width: 48%;
+	}
+
+	h2 {
+		font-size: 1.4em;
+	}
+
+	figcaption p {
+		font-size: .7em;
+	}
+}
