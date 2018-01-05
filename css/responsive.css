@@ -151,3 +151,9 @@
 		height: 25%;
 	}
 }
+
+@media screen and (min-width: 680px) and (orientation: portrait) {
+	#cover-img-container {
+		height: 30%;
+	}
+}
