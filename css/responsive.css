@@ -49,10 +49,6 @@
 }
 
 @media screen and (min-width: 375px) and (orientation: portrait) {
-	#udacity-logo {
-		height: 65px;
-	}
-
 	h1 {
 		font-size: 1.4em;
 	}
@@ -119,10 +115,6 @@
 		height: 10%;
 	}
 
-	#udacity-logo {
-		height: 75px;
-	}
-
 	h1 {
 		font-size: 1.9em;
 	}
@@ -165,9 +157,8 @@
 
 @media screen and (min-width: 780px) and (orientation: portrait) {
 	#udacity-logo {
-		height: 85px;
+		height: 65px;
 	}
-
 	h1 {
 		font-size: 2.25em;
 	}
