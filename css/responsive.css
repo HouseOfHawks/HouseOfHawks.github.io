@@ -34,7 +34,7 @@
 		text-indent: 10px;
 	}
 
-	#featured-work figure {
+	.featured-work-container {
 		width: 48%;
 	}
 
@@ -99,10 +99,6 @@
 
 	h3 {
 		font-size: 1.35em;
-	}
-
-	#featured-work figure {
-		width: 48%;
 	}
 
 	h2 {
@@ -223,7 +219,7 @@
 		text-indent: 15px;
 	}
 
-	#featured-work figure {
+	.featured-work-container {
 		width: 32%;
 	}
 
