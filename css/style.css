@@ -56,7 +56,7 @@ h3 {
 
 .project-img {
 	width: 100%;
-	border: 1px solid #7D97AD44;
+	border: rgba(125, 151, 173, .44) 1px solid;
 }
 
 figcaption {
